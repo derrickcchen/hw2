@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DC Sports Equipment</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="mt:p-16 p-4">
+        <div class="flex box-border p-4 w-full border-4 border-purple-500 rounded-sm shadow-m focus:outline-none focus:ring-purple-500
+        focus:border-purple-500">
+          <h1 class="w-1/2 font-bold">
+            <a href="index.html">
+              <span class="text-purple-500">DC Sports Equipment</span>
+            </a>
+          </h1>
+      
+          <p class="w-1/2 font-bold italic text-right">
+            Stay healthy, get stronger.
+          </p>
+        </div>
+
+        <div class="mt-12 md:flex md:space-x-4">
+            <h1 class="font-bold text-xl text-purple-500 underline">Outdoor & Aquatics Sports Equipment</h1>
+        </div>
+
+        <div class="mt-12 md:flex md:space-x-4">
+            <div class="md:w-1/3">
+              <div class="space-y-4 md:mt-0 mt-8">
+                <h2 class="font-bold">Running Shoes</h2>
+                <div>
+                  <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/qwqfyddzikcgc4ozwigp/revolution-5-mens-running-shoe-TzTL9k.jpg">
+                </div>
+                <div>These shoes are versatile and great for everyday use.  They can be worn as normal shoes and can be used for intense, long distance running.</div>
+                <div class="font-bold">$65.00</div>
+              </div>
+            </div>
+            <div class="md:w-1/3">
+              <div class="space-y-4 md:mt-0 mt-8">
+                <h2 class="font-bold">Soccer Ball</h2>
+                <div>
+                  <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/a539583d-1bee-4579-9719-976789d23e3f/premier-league-strike-soccer-ball-xlpXTS.jpg">
+                </div>
+                <div>Standard regular sized soccer ball for casual play and competition.</div>
+                <div class="font-bold">$35.00</div>
+              </div>
+            </div>
+            <div class="md:w-1/3">
+              <div class="space-y-4 md:mt-0 mt-8">
+                <h2 class="font-bold">Swim Goggles</h2>
+                <div>
+                  <img src="https://photos.cdn-outlet.com/photos/options/8189061-207-1A-zoomin.jpg">
+                </div>
+                <div>Antifog goggles that keep the water out!</div>
+                <div class="font-bold">$19.99</div>
+              </div>
+            </div>
+        </div>
+  
+        <div class="mt-12 md:flex md:space-x-4">
+            <h3 class="font-bold underline">Product Table</h3>
+        </div>
+
+        <table>
+            <tr>
+            <th>Product (Item)</th>
+            <th>Price</th>
+            </tr>
+            <tr>
+            <td>Running Shoes</td>
+            <td>$65.00</td>
+            </tr>
+            <tr>
+            <td>Soccer Ball</td>
+            <td>$35.00</td>
+            </tr>
+            <tr>
+            <td>Swim Goggles</td>
+            <td>$19.99</td>
+            </tr>
+            </table>
+
+        <h1 class="my-8 font-bold text-purple-500 text-2xl text-center">Order Now!</h1>
+        
+        <form netlify>
+            <label class="block mt-4 font-bold" for="name">Name (First and Last Name)</label>
+            <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
+            focus:border-purple-500" type="text" id="name" name="name">
+
+            <label class="block mt-4 font-bold" for="email">Email Address</label>
+            <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
+            focus:border-purple-500" type="text" id="email" name="email">
+    
+            <label class="block mt-4 font-bold" for="order">What would you like to order (specific item and quantity)?</label>
+            <textarea rows="6" class="p-2 w-full border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
+            focus:border-purple-500" id="order" name="order"></textarea>
+    
+            <button class="block mt-4 text-white bg-purple-500 rounded px-4 py-2">Submit form!</button>
+        </form>
+
+        <div class="mt-12 md:flex md:space-x-4">
+            <p class="text-sm">
+                <a href="index.html">Click here to return to the home page.</a></p>
+        </div>
+
+    </div>  
+</body>
+
+</html>
